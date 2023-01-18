@@ -1,0 +1,241 @@
+
+/* responsive */
+@media screen and (max-width: 1400px){
+.inner {
+  width: 90%;
+ }
+ .product-item {
+  width: 24%;
+ }
+ .itembox {
+  width: 24%;
+ }
+ .itembox a img {
+  width: 90%;
+ }
+ .img-content img {
+  width: 90%;
+ }
+ .article-desc {
+  width: 90%;
+ }
+}
+
+@media screen and (max-width: 1024px){
+  .main-title h1 {
+    font-size: 72px;
+  }
+  .sub-title h2 {
+    font-size: 54px;
+  }
+  .sub-title p {
+    font-size: 14px;
+  }
+  .section02 {
+    padding: 15px 0;
+  }
+  .section02 h3 {
+    font-size: 32px;
+  }
+  .product-item {
+    width: 23.8%;
+   }
+   .section03 {
+    height: 80%;
+   }
+   .chair-desc-wrap {
+    padding: 0 80px;
+   }
+   .chair-desc-wrap h3,
+   .section06 .inner h3 {
+    font-size: 28px;
+   }
+   .chair-desc-wrap p {
+    font-size: 12px;
+   }
+   .itembox {
+    width: 22%;
+    height: 34%;
+   }
+   .itembox a .desc {
+    padding: 5px 18px;
+    font-size: 11px;
+   }
+   .section08 img {
+    height: 40%;
+   }
+   .section09 .inner .chair-desc-box .chair-desc-wrap {
+    padding: 20px 20px;
+   }
+   .img-content img {
+    height: 50%;
+   }
+}
+
+@media screen and (max-width: 768px){
+  .section03 {
+    height: 90%;
+  }
+  .chair-desc-box {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .chair-desc-wrap {
+    padding: 10px 0px;
+  }
+  .section04.fullview {
+    height: 100%;
+  }
+  .itemboxwrap {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+  .itembox:nth-child(3),
+  .itembox:nth-child(4){
+    display: none;
+  }
+  .itembox {
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 40%;
+    height: 50%;
+  }
+  .product-item a .desc {
+    width: 80%;
+    font-size: 9px;
+    margin-top: 5px;
+  }
+  .articlebox {
+    height: 60%;
+  } 
+  .article-desc h4 {
+    font-size: 20px;
+  }
+  .article-desc p, 
+  .article-desc a {
+    font-size: 12px;
+  }
+  .discount-form h3 {
+    font-size: 40px;
+  }
+  .ft-box {
+    font-size: 11px;
+  }
+  .footer-logo img {
+    height: 98%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .main-title {
+    width: 100%;
+  }
+  .main-title h1 {
+    font-size: 52px;
+  }
+  .shop-all-btn {
+    width: 80%;
+    box-sizing: border-box;
+    padding: 24px;
+    line-height: 6px;
+  }
+  .sub-title {
+    width: 80%;
+  }
+  .sub-title h2 {
+    font-size: 52px;
+  }
+  .read-btn {
+    width: 100%;
+    padding: 10px;
+  }
+  .product-list-wrap {
+    width: 100%;
+    height: 100%;
+  }
+  .product-list {
+    flex-direction:column;
+  }
+  .product-item,
+  .product-item a{
+    width: 100%;
+  }
+  .section03 .inner {
+    flex-direction: column;
+  }
+  .chair-desc-box {
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+  .chair-img-box {
+    width: 100%;
+    margin-top: 24px;
+  }
+  .itemboxwrap {
+    flex-direction: column;
+  }
+  .itembox:first-child{
+    display: none;
+  }
+  .section05{
+    display: none;
+  }
+  .section07 {
+    padding: 30px 0;
+  }
+  .everytitle {
+    padding: 20px 0;
+  }
+  .everytitle-wrap h2 {
+    font-size: 36px;
+  }
+  .everytitle-wrap p {
+    font-size: 12px;
+  }
+  .section09 {
+    width: 100%;
+    padding: 0;
+  }
+  .section09 .inner {
+    width: 100%;
+    flex-direction: column;
+  }
+  .articlebox {
+    width: 100%;
+    text-align: center;
+  }
+  .discountBG {
+    width: 100%;
+    height: 94%;
+  }
+  .discount-form h3 {
+    font-size: 30px;
+  }
+  .email-box {
+    width: 80%;
+  }
+  .ft-info-wrap {
+    flex-direction: column;
+    text-align: center;
+  }
+  .ft-box:first-of-type {
+    border-left: none;
+  }
+  .ft-box {
+    width: 80%;
+    border-right: none;
+  }
+  .footer-logo {
+    width: 100%;
+  }
+  .footer-logo img {
+    width: 93%;
+  }
+  .product-item a .desc {
+    font-size: 16px;
+    padding: 36px;
+  }
+}
