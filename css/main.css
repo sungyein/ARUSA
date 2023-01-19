@@ -46,6 +46,15 @@ img.scale:hover {
   border: none;
 }
 
+/* header */
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  box-sizing: border-box;
+  padding: 30px 50px;
+}
+
 /* main */
 main {
   position: relative;
